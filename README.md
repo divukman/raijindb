@@ -10,7 +10,7 @@
 
 ## Usage
  * `docker build -t raijindb_v1 .`
- * `docker run -d -it raijindb_v1`
+ * `docker run -d -p 2500:2500 -it raijindb_v1`
  * `docker ps` To view the status
  * `docker exec -it container_id /bin/bash` To bash into the container
  * Visit localhost:2500 to run queries
